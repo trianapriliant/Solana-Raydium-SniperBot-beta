@@ -1,0 +1,40 @@
+# Mengabaikan direktori virtual environment
+venv/
+
+# Mengabaikan file konfigurasi lingkungan virtual
+pyvenv.cfg
+
+# Mengabaikan file cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Mengabaikan file lingkungan dan konfigurasi lokal
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Mengabaikan file log dan database
+*.log
+*.sqlite3
+
+# Mengabaikan file IDE dan editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Mengabaikan file distribusi dan build
+dist/
+build/
+*.egg-info/
+*.egg
+*.manifest
+*.spec
+
+# Mengabaikan file sementara
+*.tmp
+*.bak
+*.~
